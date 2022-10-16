@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start-api": "node ./api/server.js"
+    "start-api": "node ./api/server.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "private": true,
   "dependencies": {
@@ -38,6 +40,7 @@
     "@angular-eslint/template-parser": "14.1.2",
     "@angular/cli": "^14.2.6",
     "@angular/compiler-cli": "^14.2.6",
+    "@cypress/schematic": "^2.2.0",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "5.37.0",
@@ -53,6 +56,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.0.0",
     "ts-node": "~10.9.1",
-    "typescript": "~4.8.4"
+    "typescript": "~4.8.4",
+    "cypress": "latest"
   }
 }
