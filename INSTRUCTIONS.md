@@ -18,7 +18,7 @@ Good luck!
 
 ## Prerequisites
 
-- install latest Nodejs 14 (see https://nodejs.org/)
+- install latest Nodejs 16 (see https://nodejs.org/)
 - run `npm install` (installs app's dependencies)
 - run the API, type `npm run start-api` into your terminal.
 - run the app, type `npm run start` into your terminal
@@ -42,7 +42,7 @@ You have a component called `TranslationListComponent`.
 ### Translations
 
 - Match current browser language against languages from API otherwise use a fallback
-- Use the ngx_translate's `TranslatePipe` to translate app's title
+- Use the `TranslatePipe` from @ngx-translate/core to translate the app title
 
 ### Angular Material
 

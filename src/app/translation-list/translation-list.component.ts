@@ -14,5 +14,6 @@ export class TranslationListComponent implements OnInit {
 
   ngOnInit(): void {
     // TODO: Get translations from API and transform result to match `this.translations`' type
+    return;
   }
 }

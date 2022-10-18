@@ -1,6 +1,6 @@
 # NgAssessment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10 and then upgraded to the latest version.
 
 ## Development server
 
